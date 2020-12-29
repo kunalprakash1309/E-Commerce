@@ -5,7 +5,7 @@ import ShopPage from './pages/shop/shop.component.jsx'
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component.jsx'
 import CheckoutPage from './pages/checkout/checkout.component'
 import Header from './components/header/header.component.jsx'
-import { auth, createUserProfileDocument } from './firebase/firebase.utils'
+import { auth, createUserProfileDocument} from './firebase/firebase.utils'
 
 import { Route, Switch, Redirect} from 'react-router-dom'
 
